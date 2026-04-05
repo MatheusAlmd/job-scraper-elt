@@ -1,23 +1,37 @@
-# Job Scraper ETL API
+# Job Scraper ETL API with FastAPI
 
-Projeto de coleta de vagas com pipeline ETL e API em Python.
+Projeto de coleta de vagas com pipeline ETL completo e API REST em Python, publicado online.
 
-## Tecnologias
+## 🔗 Links
+
+- API online: https://job-scraper-elt.onrender.com/
+- Endpoint de vagas: https://job-scraper-elt.onrender.com/jobs
+- Filtro por título: https://job-scraper-elt.onrender.com/jobs?title=python
+
+## 🚀 Tecnologias
+
 - Python
 - Requests
 - BeautifulSoup
 - Pandas
 - SQLite
+- SQLAlchemy
 - FastAPI
+- Uvicorn
 
-## Funcionalidades
-- Scraping de vagas
-- Limpeza e transformação de dados
+## 📌 Funcionalidades
+
+- Web scraping de vagas
+- Limpeza e transformação de dados (ETL)
 - Armazenamento em CSV e SQLite
-- API para consulta de vagas
+- API REST para consulta de dados
+- Filtro de vagas por palavra-chave
 
-## Como rodar
+## 🛠️ Como rodar localmente
 
-### 1. Ativar ambiente
+### 1. Clonar o repositório
+
 ```bash
-venv\Scripts\activate
+git clone https://github.com/SEU_USUARIO/job-scraper-etl.git
+cd job-scraper-etl
+```
